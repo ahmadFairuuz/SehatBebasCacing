@@ -1,0 +1,318 @@
+# Query: MediNest
+# ContextLines: 1
+
+88 results - 21 files
+
+404.html:
+    6    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    7:   <title>404 - SehatBebasCacing</title>
+    8    <meta name="description" content="">
+
+   31    <!-- =======================================================
+   32:   * Template Name: MediNest
+   33:   * Template URL: https://bootstrapmade.com/medinest-bootstrap-hospital-template/
+   34    * Updated: Aug 11 2025 with Bootstrap v5.3.7
+
+  184            <a href="index.html" class="logo d-flex align-items-center">
+  185:             <span class="sitename">SehatBebasCacing</span>
+  186            </a>
+
+  248      <div class="container copyright text-center mt-4">
+  249:       <p>© <span>Copyright</span> <strong>SehatBebasCacing</strong>&nbsp;<span>All Rights Reserved</span></p>
+  250        <div class="credits">
+
+about.html:
+    6    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    7:   <title>About - SehatBebasCacing</title>
+    8    <meta name="description" content="">
+
+   31    <!-- =======================================================
+   32:   * Template Name: MediNest
+   33:   * Template URL: https://bootstrapmade.com/medinest-bootstrap-hospital-template/
+   34    * Updated: Aug 11 2025 with Bootstrap v5.3.7
+
+  323            <a href="index.html" class="logo d-flex align-items-center">
+  324:             <span class="sitename">SehatBebasCacing</span>
+  325            </a>
+
+  387      <div class="container copyright text-center mt-4">
+  388:       <p>© <span>Copyright</span> <strong>SehatBebasCacing</strong>&nbsp;<span>All Rights Reserved</span></p>
+  389        <div class="credits">
+
+appointment.html:
+    6    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    7:   <title>Appointment - SehatBebasCacing</title>
+    8    <meta name="description" content="">
+
+   31    <!-- =======================================================
+   32:   * Template Name: MediNest
+   33:   * Template URL: https://bootstrapmade.com/medinest-bootstrap-hospital-template/
+   34    * Updated: Aug 11 2025 with Bootstrap v5.3.7
+
+  310            <a href="index.html" class="logo d-flex align-items-center">
+  311:             <span class="sitename">SehatBebasCacing</span>
+  312            </a>
+
+  374      <div class="container copyright text-center mt-4">
+  375:       <p>© <span>Copyright</span> <strong>SehatBebasCacing</strong>&nbsp;<span>All Rights Reserved</span></p>
+  376        <div class="credits">
+
+contact.html:
+    6    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    7:   <title>Contact - SehatBebasCacing</title>
+    8    <meta name="description" content="">
+
+   31    <!-- =======================================================
+   32:   * Template Name: MediNest
+   33:   * Template URL: https://bootstrapmade.com/medinest-bootstrap-hospital-template/
+   34    * Updated: Aug 11 2025 with Bootstrap v5.3.7
+
+  210            <a href="index.html" class="logo d-flex align-items-center">
+  211:             <span class="sitename">SehatBebasCacing</span>
+  212            </a>
+
+  274      <div class="container copyright text-center mt-4">
+  275:       <p>© <span>Copyright</span> <strong>SehatBebasCacing</strong>&nbsp;<span>All Rights Reserved</span></p>
+  276        <div class="credits">
+
+department-details.html:
+    6    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    7:   <title>Department Details - SehatBebasCacing</title>
+    8    <meta name="description" content="">
+
+   31    <!-- =======================================================
+   32:   * Template Name: MediNest
+   33:   * Template URL: https://bootstrapmade.com/medinest-bootstrap-hospital-template/
+   34    * Updated: Aug 11 2025 with Bootstrap v5.3.7
+
+  284            <a href="index.html" class="logo d-flex align-items-center">
+  285:             <span class="sitename">MediNest</span>
+  286            </a>
+
+  348      <div class="container copyright text-center mt-4">
+  349:       <p>© <span>Copyright</span> <strong>SehatBebasCacing</strong>&nbsp;<span>All Rights Reserved</span></p>
+  350        <div class="credits">
+
+departments.html:
+    6    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    7:   <title>Departments - SehatBebasCacing</title>
+    8    <meta name="description" content="">
+
+   31    <!-- =======================================================
+   32:   * Template Name: MediNest
+   33:   * Template URL: https://bootstrapmade.com/medinest-bootstrap-hospital-template/
+   34    * Updated: Aug 11 2025 with Bootstrap v5.3.7
+
+  327            <a href="index.html" class="logo d-flex align-items-center">
+  328:             <span class="sitename">SehatBebasCacing</span>
+  329            </a>
+
+  391      <div class="container copyright text-center mt-4">
+  392:       <p>© <span>Copyright</span> <strong>SehatBebasCacing</strong>&nbsp;<span>All Rights Reserved</span></p>
+  393        <div class="credits">
+
+doctors.html:
+    6    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    7:   <title>Doctors - MediNest Bootstrap Template</title>
+    8    <meta name="description" content="">
+
+   31    <!-- =======================================================
+   32:   * Template Name: MediNest
+   33:   * Template URL: https://bootstrapmade.com/medinest-bootstrap-hospital-template/
+   34    * Updated: Aug 11 2025 with Bootstrap v5.3.7
+
+  547            <a href="index.html" class="logo d-flex align-items-center">
+  548:             <span class="sitename">SehatBebasCacing</span>
+  549            </a>
+
+  611      <div class="container copyright text-center mt-4">
+  612:       <p>© <span>Copyright</span> <strong>SehatBebasCacing</strong>&nbsp;<span>All Rights Reserved</span></p>
+  613        <div class="credits">
+
+faq.html:
+    6    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    7:   <title>Faq - SehatBebasCacing</title>
+    8    <meta name="description" content="">
+
+   31    <!-- =======================================================
+   32:   * Template Name: MediNest
+   33:   * Template URL: https://bootstrapmade.com/medinest-bootstrap-hospital-template/
+   34    * Updated: Aug 11 2025 with Bootstrap v5.3.7
+
+  198            <a href="index.html" class="logo d-flex align-items-center">
+  199:             <span class="sitename">SehatBebasCacing</span>
+  200            </a>
+
+  262      <div class="container copyright text-center mt-4">
+  263:       <p>© <span>Copyright</span> <strong>SehatBebasCacing</strong>&nbsp;<span>All Rights Reserved</span></p>
+  264        <div class="credits">
+
+gallery.html:
+    6    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    7:   <title>Gallery - SehatBebasCacing</title>
+    8    <meta name="description" content="">
+
+   31    <!-- =======================================================
+   32:   * Template Name: MediNest
+   33:   * Template URL: https://bootstrapmade.com/medinest-bootstrap-hospital-template/
+   34    * Updated: Aug 11 2025 with Bootstrap v5.3.7
+
+  284            <a href="index.html" class="logo d-flex align-items-center">
+  285:             <span class="sitename">SehatBebasCacing</span>
+  286            </a>
+
+  348      <div class="container copyright text-center mt-4">
+  349:       <p>© <span>Copyright</span> <strong>SehatBebasCacing</strong>&nbsp;<span>All Rights Reserved</span></p>
+  350        <div class="credits">
+
+index.html:
+     6    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+     7:   <title>Index - SehatBebasCacing</title>
+     8    <meta name="description" content="">
+
+    31    <!-- =======================================================
+    32:   * Template Name: MediNest
+    33:   * Template URL: https://bootstrapmade.com/medinest-bootstrap-hospital-template/
+    34    * Updated: Aug 11 2025 with Bootstrap v5.3.7
+
+  1037            <a href="index.html" class="logo d-flex align-items-center">
+  1038:             <span class="sitename">SehatBebasCacing</span>
+  1039            </a>
+
+  1101      <div class="container copyright text-center mt-4">
+  1102:       <p>© <span>Copyright</span> <strong>SehatBebasCacing</strong>&nbsp;<span>All Rights Reserved</span></p>
+  1103        <div class="credits">
+
+privacy.html:
+    6    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    7:   <title>Privacy - SehatBebasCacing</title>
+    8    <meta name="description" content="">
+
+   31    <!-- =======================================================
+   32:   * Template Name: MediNest
+   33:   * Template URL: https://bootstrapmade.com/medinest-bootstrap-hospital-template/
+   34    * Updated: Aug 11 2025 with Bootstrap v5.3.7
+
+  313            <a href="index.html" class="logo d-flex align-items-center">
+  314:             <span class="sitename">SehatBebasCacing</span>
+  315            </a>
+
+  377      <div class="container copyright text-center mt-4">
+  378:       <p>© <span>Copyright</span> <strong>SehatBebasCacing</strong>&nbsp;<span>All Rights Reserved</span></p>
+  379        <div class="credits">
+
+Readme.txt:
+  2  
+  3: Template Name: MediNest
+  4: Template URL: https://bootstrapmade.com/medinest-bootstrap-hospital-template/
+  5  Author: BootstrapMade.com
+
+service-details.html:
+    6    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    7:   <title>Service Details - SehatBebasCacing</title>
+    8    <meta name="description" content="">
+
+   31    <!-- =======================================================
+   32:   * Template Name: MediNest
+   33:   * Template URL: https://bootstrapmade.com/medinest-bootstrap-hospital-template/
+   34    * Updated: Aug 11 2025 with Bootstrap v5.3.7
+
+  277            <a href="index.html" class="logo d-flex align-items-center">
+  278:             <span class="sitename">SehatBebasCacing</span>
+  279            </a>
+
+  341      <div class="container copyright text-center mt-4">
+  342:       <p>© <span>Copyright</span> <strong>SehatBebasCacing</strong>&nbsp;<span>All Rights Reserved</span></p>
+  343        <div class="credits">
+
+services.html:
+    6      <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    7:     <title>Services - SehatBebasCacing</title>
+    8      <meta name="description" content="" />
+
+   33      <!-- =======================================================
+   34:   * Template Name: MediNest
+   35:   * Template URL: https://bootstrapmade.com/medinest-bootstrap-hospital-template/
+   36    * Updated: Aug 11 2025 with Bootstrap v5.3.7
+
+  591                      <a href="index.html" class="logo d-flex align-items-center">
+  592:                         <span class="sitename">SehatBebasCacing</span>
+  593                      </a>
+
+  657              <p>
+  658:                 © <span>Copyright</span> <strong>SehatBebasCacing</strong>&nbsp;<span>All Rights Reserved</span>
+  659              </p>
+
+starter-page.html:
+    6    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    7:   <title>Starter Page - SehatBebasCacing</title>
+    8    <meta name="description" content="">
+
+   31    <!-- =======================================================
+   32:   * Template Name: MediNest
+   33:   * Template URL: https://bootstrapmade.com/medinest-bootstrap-hospital-template/
+   34    * Updated: Aug 11 2025 with Bootstrap v5.3.7
+
+  149            <a href="index.html" class="logo d-flex align-items-center">
+  150:             <span class="sitename">SehatBebasCacing</span>
+  151            </a>
+
+  213      <div class="container copyright text-center mt-4">
+  214:       <p>© <span>Copyright</span> <strong>SehatBebasCacing</strong>&nbsp;<span>All Rights Reserved</span></p>
+  215        <div class="credits">
+
+terms.html:
+    6    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    7:   <title>Terms - SehatBebasCacing</title>
+    8    <meta name="description" content="">
+
+   31    <!-- =======================================================
+   32:   * Template Name: MediNest
+   33:   * Template URL: https://bootstrapmade.com/medinest-bootstrap-hospital-template/
+   34    * Updated: Aug 11 2025 with Bootstrap v5.3.7
+
+  273            <a href="index.html" class="logo d-flex align-items-center">
+  274:             <span class="sitename">SehatBebasCacing</span>
+  275            </a>
+
+  337      <div class="container copyright text-center mt-4">
+  338:       <p>© <span>Copyright</span> <strong>SehatBebasCacing</strong>&nbsp;<span>All Rights Reserved</span></p>
+  339        <div class="credits">
+
+testimonials.html:
+    6    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    7:   <title>Testimonials - SehatBebasCacing</title>
+    8    <meta name="description" content="">
+
+   31    <!-- =======================================================
+   32:   * Template Name: MediNest
+   33:   * Template URL: https://bootstrapmade.com/medinest-bootstrap-hospital-template/
+   34    * Updated: Aug 11 2025 with Bootstrap v5.3.7
+
+  243            <a href="index.html" class="logo d-flex align-items-center">
+  244:             <span class="sitename">SehatBebasCacing</span>
+  245            </a>
+
+  307      <div class="container copyright text-center mt-4">
+  308:       <p>© <span>Copyright</span> <strong>SehatBebasCacing</strong>&nbsp;<span>All Rights Reserved</span></p>
+  309        <div class="credits">
+
+assets\css\main.css:
+  1  /**
+  2: * Template Name: MediNest
+  3: * Template URL: https://bootstrapmade.com/medinest-bootstrap-hospital-template/
+  4  * Updated: Aug 11 2025 with Bootstrap v5.3.7
+
+assets\js\main.js:
+  1  /**
+  2: * Template Name: MediNest
+  3: * Template URL: https://bootstrapmade.com/medinest-bootstrap-hospital-template/
+  4  * Updated: Aug 11 2025 with Bootstrap v5.3.7
+
+assets\scss\Readme.txt:
+  1  The .scss (Sass) files are only available in the pro version.
+  2: You can buy it from: https://bootstrapmade.com/medinest-bootstrap-hospital-template/
+
+forms\Readme.txt:
+  1  Fully working PHP/AJAX contact form script is available in the pro version of the template.
+  2: You can buy it from: https://bootstrapmade.com/medinest-bootstrap-hospital-template/
