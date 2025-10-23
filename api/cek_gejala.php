@@ -1,8 +1,4 @@
 <?php
-header("Content-Type: text/html; charset=UTF-8");
-header("Cache-Control: no-cache, no-store, must-revalidate");
-
-
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Pastikan ada data gejala dikirim
     if (!isset($_POST['gejala']) || empty($_POST['gejala'])) {
