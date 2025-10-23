@@ -68,12 +68,12 @@
             background-color: #e7f1ff;
         }
 
-        .department-card .card-icon{
-          margin: 10px;
+        .department-card .card-icon {
+            margin: 10px;
         }
 
-        .department-card h3{
-          margin: 16px;
+        .department-card h3 {
+            margin: 16px;
         }
     </style>
 </head>
@@ -412,8 +412,8 @@
         <section id="featured-departments" class="featured-departments section">
             <div class="container" data-aos="fade-up" data-aos-delay="100">
                 <div class="departments-showcase mb">
-                  <h1>Cek Yuk</h1>
-                  <h3 class="mb-2">Apakah anda cacingan atau tidak?</h3>
+                    <h1>Cek Yuk</h1>
+                    <h3 class="mb-2">Apakah anda cacingan atau tidak?</h3>
                     <form id="gejalaForm" method="POST" action="forms/cek_gejala.php">
                         <div class="departments-grid">
                             <div class="row">
@@ -426,7 +426,7 @@
                                         <div class="card-content">
                                             <h3 class="card-title">
                                                 Sering gatal di sekitar anus terutama malam hari
-                                            </h3> 
+                                            </h3>
                                             <!-- <p class="card-description">(+3)</p> -->
                                         </div>
                                     </label>
@@ -693,32 +693,34 @@
             });
         });
     </script>
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-  const form = document.getElementById("gejalaForm");
-  form.addEventListener("submit", function (e) {
-    e.preventDefault(); // cegah reload
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const form = document.getElementById("gejalaForm");
+            form.addEventListener("submit", function(e) {
+                e.preventDefault(); // cegah reload
 
-    const formData = new FormData(form);
+                const formData = new FormData(form);
 
-    fetch(form.action, {
-      method: "POST",
-      body: formData
-    })
-      .then(response => response.text())
-      .then(html => {
-        // tampilkan hasil (pastikan elemen hasil-pemeriksaan ada di HTML)
-        document.getElementById("hasil-pemeriksaan").innerHTML = html;
-        document.getElementById("hasil-pemeriksaan").scrollIntoView({ behavior: "smooth" });
-      })
-      .catch(err => {
-        document.getElementById("hasil-pemeriksaan").innerHTML =
-          "<p style='color:red;'>Terjadi kesalahan saat memproses data.</p>";
-        console.error(err);
-      });
-  });
-});
-</script>
+                fetch(form.action, {
+                        method: "POST",
+                        body: formData
+                    })
+                    .then(response => response.text())
+                    .then(html => {
+                        // tampilkan hasil (pastikan elemen hasil-pemeriksaan ada di HTML)
+                        document.getElementById("hasil-pemeriksaan").innerHTML = html;
+                        document.getElementById("hasil-pemeriksaan").scrollIntoView({
+                            behavior: "smooth"
+                        });
+                    })
+                    .catch(err => {
+                        document.getElementById("hasil-pemeriksaan").innerHTML =
+                            "<p style='color:red;'>Terjadi kesalahan saat memproses data.</p>";
+                        console.error(err);
+                    });
+            });
+        });
+    </script>
 
 
 </body>
