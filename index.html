@@ -115,15 +115,19 @@
                                 data-bs-ride="carousel" data-bs-interval="3000">
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <img class="d-block w-100" src="assets/img/cacing/bareng1.jpg"
+                                        <img class="d-block w-100" src="assets/img/cacing/home1.jpg"
                                             alt="Edukasi Cegah Cacingan 1">
                                     </div>
                                     <div class="carousel-item">
-                                        <img class="d-block w-100" src="assets/img/cacing/bareng2.jpg"
+                                        <img class="d-block w-100" src="assets/img/cacing/home2.jpg"
                                             alt="Edukasi Cegah Cacingan 2">
                                     </div>
                                     <div class="carousel-item">
-                                        <img class="d-block w-100" src="assets/img/cacing/bareng3.jpg"
+                                        <img class="d-block w-100" src="assets/img/cacing/home3.jpg"
+                                            alt="Edukasi Cegah Cacingan 3">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="assets/img/cacing/home4.jpg"
                                             alt="Edukasi Cegah Cacingan 3">
                                     </div>
                                 </div>
@@ -277,14 +281,6 @@
                                 class="img-fluid poster-img">
                         </div>
                     </div>
-
-                    <!-- Poster 6 -->
-                    <div class="col-md-4 col-sm-6" data-aos="zoom-in" data-aos-delay="600">
-                        <div class="poster-card shadow-sm rounded-4 overflow-hidden">
-                            <img src="https://i.ibb.co/sKbfLZQ/poster-gizi-anak.jpg"
-                                alt="Poster Gizi dan Kesehatan Anak" class="img-fluid poster-img">
-                        </div>
-                    </div>
                 </div>
             </div>
         </section>
@@ -418,178 +414,215 @@
         <section id="featured-departments" class="py-5 featured-departments section">
             <div class="container" data-aos="fade-up" data-aos-delay="100">
                 <div class="departments-showcase mb">
+                    <div id="biodata-container" class="mb-4 p-4 bg-light shadow-sm rounded"></div>
+
                     <h1>Cek Yuk</h1>
                     <h3 class="mb-2">Apakah anda cacingan atau tidak?</h3>
+
                     <form id="gejalaForm" method="POST" action="api/cek_gejala.php">
-                        <div class="departments-grid">
-                            <div class="row">
-                                <!-- Gejala 1 -->
-                                <div class="col-lg-6 col-md-2" data-aos="fade-up" data-aos-delay="100">
-                                    <label class="department-card">
-                                        <input type="checkbox" name="gejala[]"
-                                            value="Sering gatal di sekitar anus terutama malam hari (+3)" hidden />
-                                        <div class="card-icon"><i class="fas fa-virus"></i></div>
-                                        <div class="card-content">
-                                            <h3 class="card-title">
-                                                Sering gatal di sekitar anus terutama malam hari
-                                            </h3>
-                                            <!-- <p class="card-description">(+3)</p> -->
-                                        </div>
-                                    </label>
-                                </div>
-
-                                <!-- Gejala 2 -->
-                                <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="150">
-                                    <label class="department-card">
-                                        <input type="checkbox" name="gejala[]"
-                                            value="Nafsu makan menurun tanpa sebab jelas (+2)" hidden />
-                                        <div class="card-icon">
-                                            <i class="fas fa-utensils"></i>
-                                        </div>
-                                        <div class="card-content">
-                                            <h3 class="card-title">
-                                                Nafsu makan menurun tanpa sebab jelas
-                                            </h3>
-                                            <!-- <p class="card-description">(+2)</p> -->
-                                        </div>
-                                    </label>
-                                </div>
-
-                                <!-- Gejala 3 -->
-                                <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="200">
-                                    <label class="department-card">
-                                        <input type="checkbox" name="gejala[]"
-                                            value="Berat badan sulit naik atau tampak kurus (+2)" hidden />
-                                        <div class="card-icon"><i class="fas fa-weight"></i></div>
-                                        <div class="card-content">
-                                            <h3 class="card-title">
-                                                Berat badan sulit naik atau tampak kurus
-                                            </h3>
-                                            <!-- <p class="card-description">(+2)</p> -->
-                                        </div>
-                                    </label>
-                                </div>
-
-                                <!-- Gejala 4 -->
-                                <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="250">
-                                    <label class="department-card">
-                                        <input type="checkbox" name="gejala[]"
-                                            value="Sering sakit perut, mual, atau diare ringan (+2)" hidden />
-                                        <div class="card-icon">
-                                            <i class="fas fa-head-side-cough"></i>
-                                        </div>
-                                        <div class="card-content">
-                                            <h3 class="card-title">
-                                                Sering sakit perut, mual, atau diare ringan
-                                            </h3>
-                                            <!-- <p class="card-description">(+2)</p> -->
-                                        </div>
-                                    </label>
-                                </div>
-
-                                <!-- Gejala 5 -->
-                                <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="300">
-                                    <label class="department-card">
-                                        <input type="checkbox" name="gejala[]" value="Terlihat cacing di feses (+5)"
-                                            hidden />
-                                        <div class="card-icon"><i class="fas fa-poop"></i></div>
-                                        <div class="card-content">
-                                            <h3 class="card-title">Terlihat cacing di feses</h3>
-                                            <!-- <p class="card-description">(+5)</p> -->
-                                        </div>
-                                    </label>
-                                </div>
-
-                                <!-- Gejala 6 -->
-                                <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="350">
-                                    <label class="department-card">
-                                        <input type="checkbox" name="gejala[]"
-                                            value="Sering tidak mencuci tangan sebelum makan (+2)" hidden />
-                                        <div class="card-icon">
-                                            <i class="fas fa-hands-wash"></i>
-                                        </div>
-                                        <div class="card-content">
-                                            <h3 class="card-title">
-                                                Sering tidak mencuci tangan sebelum makan
-                                            </h3>
-                                            <!-- <p class="card-description">(+2)</p> -->
-                                        </div>
-                                    </label>
-                                </div>
-
-                                <!-- Gejala 7 -->
-                                <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="400">
-                                    <label class="department-card">
-                                        <input type="checkbox" name="gejala[]"
-                                            value="Jarang memakai alas kaki di luar rumah (+2)" hidden />
-                                        <div class="card-icon">
-                                            <i class="fas fa-shoe-prints"></i>
-                                        </div>
-                                        <div class="card-content">
-                                            <h3 class="card-title">
-                                                Jarang memakai alas kaki di luar rumah
-                                            </h3>
-                                            <!-- <p class="card-description">(+2)</p> -->
-                                        </div>
-                                    </label>
-                                </div>
-
-                                <!-- Gejala 8 -->
-                                <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="450">
-                                    <label class="department-card">
-                                        <input type="checkbox" name="gejala[]"
-                                            value="Tidak memotong kuku secara teratur (+1)" hidden />
-                                        <div class="card-icon"><i class="fas fa-cut"></i></div>
-                                        <div class="card-content">
-                                            <h3 class="card-title">
-                                                Tidak memotong kuku secara teratur
-                                            </h3>
-                                            <!-- <p class="card-description">(+1)</p> -->
-                                        </div>
-                                    </label>
-                                </div>
-
-                                <!-- Gejala 9 -->
-                                <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="500">
-                                    <label class="department-card">
-                                        <input type="checkbox" name="gejala[]"
-                                            value="Tinggal di lingkungan yang kurang bersih (+2)" hidden />
-                                        <div class="card-icon"><i class="fas fa-home"></i></div>
-                                        <div class="card-content">
-                                            <h3 class="card-title">
-                                                Tinggal di lingkungan yang kurang bersih
-                                            </h3>
-                                            <!-- <p class="card-description">(+2)</p> -->
-                                        </div>
-                                    </label>
-                                </div>
-
-                                <!-- Gejala 10 -->
-                                <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="550">
-                                    <label class="department-card">
-                                        <input type="checkbox" name="gejala[]"
-                                            value="Belum pernah minum obat cacing dalam 6 bulan terakhir (+2)"
-                                            hidden />
-                                        <div class="card-icon"><i class="fas fa-pills"></i></div>
-                                        <div class="card-content">
-                                            <h3 class="card-title">
-                                                Belum pernah minum obat cacing dalam 6 bulan terakhir
-                                            </h3>
-                                            <!-- <p class="card-description">(+2)</p> -->
-                                        </div>
-                                    </label>
+                        <!-- BIODATA -->
+                        <div class="mb-1 mt-4">
+                            <label class="form-label">Nama Lengkap</label>
+                            <input type="text" name="nama" class="form-control" required>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label">Umur</label>
+                                <input type="number" name="umur" class="form-control" required>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <div class="mb-3">
+                                    <label class="form-label">Berat Badan</label>
+                                    <input type="number" name="berat_badan" class="form-control" required>
                                 </div>
                             </div>
-                            <div class="text-center mt-4">
-                                <button type="submit" class="btn btn-primary">Cek Hasil</button>
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label">Tinggi Badan</label>
+                                <input type="number" name="tinggi_badan" class="form-control" required>
+                            </div class="col-md-6">
+                            <div class="col-md-6">
+                                <label class="form-label">Jenis Kelamin</label>
+                                <select name="jenis_kelamin" class="form-select" required>
+                                    <option value="">-- Pilih --</option>
+                                    <option value="Laki-laki">Laki-laki</option>
+                                    <option value="Perempuan">Perempuan</option>
+                                </select>
                             </div>
-                            <div id="hasil-pemeriksaan" class="mt-5 shadow-lg" style="border-radius: 25px;"></div>
-                            <div class="mt-4">
-                                <h4>🟢 Risiko Rendah = skor 0-5</h4>
-                                <h4> 🟡 Risiko Sedang = skor 6-10</h4>
-                                <h4> 🔴 Risiko Tinggi = skor ≥ 11</h4>
-                            </div>
+
+                        </div>
+
+                </div>
+
+
+                <div class="departments-grid">
+                    <div class="row">
+                        <!-- Gejala 1 -->
+                        <div class="col-lg-6 col-md-2" data-aos="fade-up" data-aos-delay="100">
+                            <label class="department-card">
+                                <input type="checkbox" name="gejala[]"
+                                    value="Sering gatal di sekitar anus terutama malam hari (+3)" hidden />
+                                <div class="card-icon"><i class="fas fa-virus"></i></div>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        Sering gatal di sekitar anus terutama malam hari
+                                    </h3>
+                                    <!-- <p class="card-description">(+3)</p> -->
+                                </div>
+                            </label>
+                        </div>
+
+                        <!-- Gejala 2 -->
+                        <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="150">
+                            <label class="department-card">
+                                <input type="checkbox" name="gejala[]"
+                                    value="Nafsu makan menurun tanpa sebab jelas (+2)" hidden />
+                                <div class="card-icon">
+                                    <i class="fas fa-utensils"></i>
+                                </div>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        Nafsu makan menurun tanpa sebab jelas
+                                    </h3>
+                                    <!-- <p class="card-description">(+2)</p> -->
+                                </div>
+                            </label>
+                        </div>
+
+                        <!-- Gejala 3 -->
+                        <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                            <label class="department-card">
+                                <input type="checkbox" name="gejala[]"
+                                    value="Berat badan sulit naik atau tampak kurus (+2)" hidden />
+                                <div class="card-icon"><i class="fas fa-weight"></i></div>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        Berat badan sulit naik atau tampak kurus
+                                    </h3>
+                                    <!-- <p class="card-description">(+2)</p> -->
+                                </div>
+                            </label>
+                        </div>
+
+                        <!-- Gejala 4 -->
+                        <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="250">
+                            <label class="department-card">
+                                <input type="checkbox" name="gejala[]"
+                                    value="Sering sakit perut, mual, atau diare ringan (+2)" hidden />
+                                <div class="card-icon">
+                                    <i class="fas fa-head-side-cough"></i>
+                                </div>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        Sering sakit perut, mual, atau diare ringan
+                                    </h3>
+                                    <!-- <p class="card-description">(+2)</p> -->
+                                </div>
+                            </label>
+                        </div>
+
+                        <!-- Gejala 5 -->
+                        <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                            <label class="department-card">
+                                <input type="checkbox" name="gejala[]" value="Terlihat cacing di feses (+5)"
+                                    hidden />
+                                <div class="card-icon"><i class="fas fa-poop"></i></div>
+                                <div class="card-content">
+                                    <h3 class="card-title">Terlihat cacing di feses</h3>
+                                    <!-- <p class="card-description">(+5)</p> -->
+                                </div>
+                            </label>
+                        </div>
+
+                        <!-- Gejala 6 -->
+                        <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="350">
+                            <label class="department-card">
+                                <input type="checkbox" name="gejala[]"
+                                    value="Sering tidak mencuci tangan sebelum makan (+2)" hidden />
+                                <div class="card-icon">
+                                    <i class="fas fa-hands-wash"></i>
+                                </div>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        Sering tidak mencuci tangan sebelum makan
+                                    </h3>
+                                    <!-- <p class="card-description">(+2)</p> -->
+                                </div>
+                            </label>
+                        </div>
+
+                        <!-- Gejala 7 -->
+                        <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                            <label class="department-card">
+                                <input type="checkbox" name="gejala[]"
+                                    value="Jarang memakai alas kaki di luar rumah (+2)" hidden />
+                                <div class="card-icon">
+                                    <i class="fas fa-shoe-prints"></i>
+                                </div>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        Jarang memakai alas kaki di luar rumah
+                                    </h3>
+                                    <!-- <p class="card-description">(+2)</p> -->
+                                </div>
+                            </label>
+                        </div>
+
+                        <!-- Gejala 8 -->
+                        <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="450">
+                            <label class="department-card">
+                                <input type="checkbox" name="gejala[]"
+                                    value="Tidak memotong kuku secara teratur (+1)" hidden />
+                                <div class="card-icon"><i class="fas fa-cut"></i></div>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        Tidak memotong kuku secara teratur
+                                    </h3>
+                                    <!-- <p class="card-description">(+1)</p> -->
+                                </div>
+                            </label>
+                        </div>
+
+                        <!-- Gejala 9 -->
+                        <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="500">
+                            <label class="department-card">
+                                <input type="checkbox" name="gejala[]"
+                                    value="Tinggal di lingkungan yang kurang bersih (+2)" hidden />
+                                <div class="card-icon"><i class="fas fa-home"></i></div>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        Tinggal di lingkungan yang kurang bersih
+                                    </h3>
+                                    <!-- <p class="card-description">(+2)</p> -->
+                                </div>
+                            </label>
+                        </div>
+
+                        <!-- Gejala 10 -->
+                        <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="550">
+                            <label class="department-card">
+                                <input type="checkbox" name="gejala[]"
+                                    value="Belum pernah minum obat cacing dalam 6 bulan terakhir (+2)" hidden />
+                                <div class="card-icon"><i class="fas fa-pills"></i></div>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        Belum pernah minum obat cacing dalam 6 bulan terakhir
+                                    </h3>
+                                    <!-- <p class="card-description">(+2)</p> -->
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="text-center mt-4">
+                        <button type="submit" class="btn btn-primary">Cek Hasil</button>
+                    </div>
+
                     </form>
+                    <div id="hasil-pemeriksaan" class="mt-5 shadow-lg" style="border-radius: 25px;"></div>
+                    <div class="mt-4">
+                        <h4>🟢 Risiko Rendah = skor 0-5</h4>
+                        <h4> 🟡 Risiko Sedang = skor 6-10</h4>
+                        <h4> 🔴 Risiko Tinggi = skor ≥ 11</h4>
+                    </div>
                 </div>
             </div>
         </section>
@@ -798,7 +831,7 @@
 
                 const formData = new FormData(form);
 
-                fetch(form.action, {
+                fetch(form.action + "?_=" + new Date().getTime(), {
                         method: "POST",
                         body: formData
                     })
